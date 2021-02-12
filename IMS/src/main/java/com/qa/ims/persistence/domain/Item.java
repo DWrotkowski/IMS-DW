@@ -10,8 +10,10 @@ public class Item {
 		this.setItemName(itemName);
 		this.setValue(value);
 	}
+	
+	
 
-	public Item(Long item_id, String itemName, Long value) {
+	public Item(Long item_id ,String itemName,Long value ) {
 		this.setItem_id(item_id);
 		this.setItemName(itemName);
 		this.setValue(value);
@@ -44,7 +46,7 @@ public class Item {
 
 	@Override
 	public String toString() {
-		return "Iten id:" + item_id + " item name:" + itemName + " value:" + value;
+		return "Item id:" + item_id + " item name:" + itemName + " value:" + value;
 	}
 
 	@Override

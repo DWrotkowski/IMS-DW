@@ -1,21 +1,17 @@
-package com.qa.ims.controller;
+package com.qa.ims.account;
 
-import java.util.List;
 
 
 /**
  * Create, Read, Update and Delete controller. Takes in inputs for each action
  * to be sent to a service class
  */
-public interface CrudController<T> {
+public interface Crud<T> {
 
-	List<T> readAll();
+	T login();
 
 	T create();
 
-	T update();
-
-	int delete();
 
 
 }
