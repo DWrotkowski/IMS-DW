@@ -1,68 +1,67 @@
-20210202 12:19:43 INFO  [main] ims.IMS IMS.java36 - Welcome to the Inventory Management System!
-20210202 12:19:43 INFO  [main] ims.IMS IMS.java41 - Which entity would you like to use?
-20210202 12:19:43 INFO  [main] domain.Domain Domain.java27 - CUSTOMER: Information about customers
-20210202 12:19:43 INFO  [main] domain.Domain Domain.java27 - ITEM: Individual Items
-20210202 12:19:43 INFO  [main] domain.Domain Domain.java27 - ORDER: Purchases of items
-20210202 12:19:43 INFO  [main] domain.Domain Domain.java27 - STOP: To close the application
-20210202 12:19:56 INFO  [main] ims.IMS IMS.java71 - What would you like to do with item:
-20210202 12:19:56 INFO  [main] controller.Action Action.java38 - CREATE: To save a new entity into the database
-20210202 12:19:57 INFO  [main] controller.Action Action.java38 - READ: To read an entity from the database
-20210202 12:19:57 INFO  [main] controller.Action Action.java38 - UPDATE: To change an entity already in the database
-20210202 12:19:57 INFO  [main] controller.Action Action.java38 - DELETE: To remove an entity from the database
-20210202 12:19:57 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
-20210202 12:20:05 INFO  [main] controller.ItemController ItemController.java36 - Iten id:1 item name:jojo value:5
-20210202 12:20:05 INFO  [main] ims.IMS IMS.java71 - What would you like to do with item:
-20210202 12:20:05 INFO  [main] controller.Action Action.java38 - CREATE: To save a new entity into the database
-20210202 12:20:05 INFO  [main] controller.Action Action.java38 - READ: To read an entity from the database
-20210202 12:20:05 INFO  [main] controller.Action Action.java38 - UPDATE: To change an entity already in the database
-20210202 12:20:05 INFO  [main] controller.Action Action.java38 - DELETE: To remove an entity from the database
-20210202 12:20:05 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
-20210202 12:20:28 INFO  [main] controller.ItemController ItemController.java46 - Please enter a item name
-20210202 12:20:32 INFO  [main] controller.ItemController ItemController.java48 - Please enter a value
-20210202 12:20:34 INFO  [main] controller.ItemController ItemController.java51 - Item created
-20210202 12:20:34 INFO  [main] ims.IMS IMS.java71 - What would you like to do with item:
-20210202 12:20:34 INFO  [main] controller.Action Action.java38 - CREATE: To save a new entity into the database
-20210202 12:20:34 INFO  [main] controller.Action Action.java38 - READ: To read an entity from the database
-20210202 12:20:34 INFO  [main] controller.Action Action.java38 - UPDATE: To change an entity already in the database
-20210202 12:20:34 INFO  [main] controller.Action Action.java38 - DELETE: To remove an entity from the database
-20210202 12:20:34 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
-20210202 12:20:41 INFO  [main] controller.ItemController ItemController.java36 - Iten id:1 item name:jojo value:5
-20210202 12:20:41 INFO  [main] controller.ItemController ItemController.java36 - Iten id:2 item name:box value:10
-20210202 12:20:41 INFO  [main] ims.IMS IMS.java71 - What would you like to do with item:
-20210202 12:20:41 INFO  [main] controller.Action Action.java38 - CREATE: To save a new entity into the database
-20210202 12:20:41 INFO  [main] controller.Action Action.java38 - READ: To read an entity from the database
-20210202 12:20:41 INFO  [main] controller.Action Action.java38 - UPDATE: To change an entity already in the database
-20210202 12:20:41 INFO  [main] controller.Action Action.java38 - DELETE: To remove an entity from the database
-20210202 12:20:41 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
-20210202 12:21:00 INFO  [main] controller.ItemController ItemController.java60 - Please enter the id of the item you would like to update
-20210202 12:21:05 INFO  [main] controller.ItemController ItemController.java62 - Please enter a item name
-20210202 12:21:17 INFO  [main] controller.ItemController ItemController.java64 - Please enter a value
-20210202 12:21:21 INFO  [main] controller.ItemController ItemController.java67 - Item Updated
-20210202 12:21:21 INFO  [main] ims.IMS IMS.java71 - What would you like to do with item:
-20210202 12:21:21 INFO  [main] controller.Action Action.java38 - CREATE: To save a new entity into the database
-20210202 12:21:21 INFO  [main] controller.Action Action.java38 - READ: To read an entity from the database
-20210202 12:21:21 INFO  [main] controller.Action Action.java38 - UPDATE: To change an entity already in the database
-20210202 12:21:21 INFO  [main] controller.Action Action.java38 - DELETE: To remove an entity from the database
-20210202 12:21:21 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
-20210202 12:21:28 INFO  [main] controller.ItemController ItemController.java36 - Iten id:1 item name:jojo value:5
-20210202 12:21:28 INFO  [main] controller.ItemController ItemController.java36 - Iten id:2 item name:juice box value:12
-20210202 12:21:28 INFO  [main] ims.IMS IMS.java71 - What would you like to do with item:
-20210202 12:21:28 INFO  [main] controller.Action Action.java38 - CREATE: To save a new entity into the database
-20210202 12:21:28 INFO  [main] controller.Action Action.java38 - READ: To read an entity from the database
-20210202 12:21:28 INFO  [main] controller.Action Action.java38 - UPDATE: To change an entity already in the database
-20210202 12:21:28 INFO  [main] controller.Action Action.java38 - DELETE: To remove an entity from the database
-20210202 12:21:28 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
-20210202 12:21:55 INFO  [main] controller.ItemController ItemController.java78 - Please enter the id of the item you would like to delete
-20210202 12:22:03 INFO  [main] ims.IMS IMS.java71 - What would you like to do with item:
-20210202 12:22:03 INFO  [main] controller.Action Action.java38 - CREATE: To save a new entity into the database
-20210202 12:22:03 INFO  [main] controller.Action Action.java38 - READ: To read an entity from the database
-20210202 12:22:03 INFO  [main] controller.Action Action.java38 - UPDATE: To change an entity already in the database
-20210202 12:22:03 INFO  [main] controller.Action Action.java38 - DELETE: To remove an entity from the database
-20210202 12:22:03 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
-20210202 12:22:09 INFO  [main] controller.ItemController ItemController.java36 - Iten id:1 item name:jojo value:5
-20210202 12:22:09 INFO  [main] ims.IMS IMS.java71 - What would you like to do with item:
-20210202 12:22:09 INFO  [main] controller.Action Action.java38 - CREATE: To save a new entity into the database
-20210202 12:22:09 INFO  [main] controller.Action Action.java38 - READ: To read an entity from the database
-20210202 12:22:09 INFO  [main] controller.Action Action.java38 - UPDATE: To change an entity already in the database
-20210202 12:22:09 INFO  [main] controller.Action Action.java38 - DELETE: To remove an entity from the database
-20210202 12:22:09 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
+20210212 05:22:30 INFO  [main] controller.OrderController OrderController.java105 - Please enter the id of the order from  you would like remove item
+20210212 05:22:30 INFO  [main] controller.OrderController OrderController.java107 - Please enter the id of the item you would like to delete
+20210212 05:22:30 INFO  [main] controller.OrderController OrderController.java94 - Please enter the id of the order you would like to add item
+20210212 05:22:30 INFO  [main] controller.OrderController OrderController.java96 - Please enter a item
+20210212 05:22:30 INFO  [main] controller.OrderController OrderController.java99 - Item added to order
+20210212 05:22:30 INFO  [main] controller.OrderController OrderController.java39 - ALL orders : 
+
+20210212 05:22:30 INFO  [main] controller.OrderController OrderController.java45 - Orders with Items : 
+
+20210212 05:22:30 INFO  [main] controller.OrderController OrderController.java48 - order_id= 1, customers_ id : 1, items= 1
+
+20210212 05:22:30 INFO  [main] controller.OrderController OrderController.java59 - Please enter a order's customer's id
+20210212 05:22:30 INFO  [main] controller.OrderController OrderController.java62 - Order created, now you need add some items
+20210212 05:22:30 INFO  [main] controller.OrderController OrderController.java87 - Please enter the id of the order you would like to delete
+20210212 05:22:30 INFO  [main] controller.OrderController OrderController.java71 - Please enter the id of the order you would like to update
+20210212 05:22:30 INFO  [main] controller.OrderController OrderController.java73 - Please enter a customer
+20210212 05:22:30 INFO  [main] controller.OrderController OrderController.java76 - Order Updated
+20210212 05:22:30 INFO  [main] controller.OrderController OrderController.java114 - Please enter the id of the order's value you would like calculate 
+20210212 05:22:32 DEBUG [main] dao.OrderDAO OrderDAO.java174 - java.lang.NullPointerException: Cannot invoke "com.qa.ims.persistence.domain.Order.getCustomers()" because "order" is null
+20210212 05:22:32 ERROR [main] dao.OrderDAO OrderDAO.java175 - Cannot invoke "com.qa.ims.persistence.domain.Order.getCustomers()" because "order" is null
+20210212 05:22:32 DEBUG [main] dao.OrderDAO OrderDAO.java214 - java.lang.NullPointerException: Cannot invoke "com.qa.ims.persistence.domain.Orders_items.getOrder_id()" because "order" is null
+20210212 05:22:32 ERROR [main] dao.OrderDAO OrderDAO.java215 - Cannot invoke "com.qa.ims.persistence.domain.Orders_items.getOrder_id()" because "order" is null
+20210212 05:22:36 DEBUG [main] dao.OrderDAO OrderDAO.java121 - java.lang.NullPointerException: Cannot invoke "com.qa.ims.persistence.domain.Order.getCustomers()" because "order" is null
+20210212 05:22:36 ERROR [main] dao.OrderDAO OrderDAO.java122 - Cannot invoke "com.qa.ims.persistence.domain.Order.getCustomers()" because "order" is null
+20210212 05:22:36 INFO  [main] dao.OrderDAO OrderDAO.java33 - total value of this order is : 5
+20210212 05:22:37 INFO  [main] account.Account Account.java51 - Incorrect password, please try again
+20210212 05:22:37 INFO  [main] account.Account Account.java53 - Incorrect username, please try again
+20210212 05:22:37 INFO  [main] account.Account Account.java51 - Incorrect password, please try again
+20210212 05:22:37 INFO  [main] account.Account Account.java53 - Incorrect username, please try again
+20210212 05:22:37 INFO  [main] account.Account Account.java51 - Incorrect password, please try again
+20210212 05:22:37 INFO  [main] account.Account Account.java53 - Incorrect username, please try again
+20210212 05:22:37 INFO  [main] account.Account Account.java56 - Attempts exceeded, returning to main menu.
+20210212 05:22:37 INFO  [main] account.Account Account.java79 - Please enter a user name
+20210212 05:22:37 INFO  [main] account.Account Account.java85 - Please enter a password
+20210212 05:22:37 INFO  [main] account.Account Account.java90 - Account created
+20210212 05:22:38 DEBUG [main] account.UserDev UserDev.java57 - java.lang.NullPointerException: Cannot invoke "com.qa.ims.account.User.getUsername()" because "account" is null
+20210212 05:22:38 ERROR [main] account.UserDev UserDev.java58 - Cannot invoke "com.qa.ims.account.User.getUsername()" because "account" is null
+20210212 05:22:38 INFO  [main] controller.ItemController ItemController.java36 - Item id:1 item name:jojo value:5
+20210212 05:22:38 INFO  [main] controller.ItemController ItemController.java46 - Please enter a item name
+20210212 05:22:38 INFO  [main] controller.ItemController ItemController.java48 - Please enter a value
+20210212 05:22:38 INFO  [main] controller.ItemController ItemController.java51 - Item created
+20210212 05:22:38 INFO  [main] controller.ItemController ItemController.java78 - Please enter the id of the item you would like to delete
+20210212 05:22:38 INFO  [main] controller.ItemController ItemController.java60 - Please enter the id of the item you would like to update
+20210212 05:22:38 INFO  [main] controller.ItemController ItemController.java62 - Please enter a item name
+20210212 05:22:38 INFO  [main] controller.ItemController ItemController.java64 - Please enter a value
+20210212 05:22:38 INFO  [main] controller.ItemController ItemController.java67 - Item Updated
+20210212 05:22:39 DEBUG [main] dao.CustomerDAO CustomerDAO.java119 - java.lang.NullPointerException: Cannot invoke "com.qa.ims.persistence.domain.Customer.getFirstName()" because "customer" is null
+20210212 05:22:39 ERROR [main] dao.CustomerDAO CustomerDAO.java120 - Cannot invoke "com.qa.ims.persistence.domain.Customer.getFirstName()" because "customer" is null
+20210212 05:22:40 DEBUG [main] dao.CustomerDAO CustomerDAO.java95 - java.sql.SQLException: Illegal operation on empty result set.
+20210212 05:22:40 ERROR [main] dao.CustomerDAO CustomerDAO.java96 - Illegal operation on empty result set.
+20210212 05:22:41 DEBUG [main] dao.CustomerDAO CustomerDAO.java79 - java.lang.NullPointerException: Cannot invoke "com.qa.ims.persistence.domain.Customer.getFirstName()" because "customer" is null
+20210212 05:22:41 ERROR [main] dao.CustomerDAO CustomerDAO.java80 - Cannot invoke "com.qa.ims.persistence.domain.Customer.getFirstName()" because "customer" is null
+20210212 05:22:41 INFO  [main] controller.CustomerController CustomerController.java36 - id:1 first name:jordan surname:harrison
+20210212 05:22:41 INFO  [main] controller.CustomerController CustomerController.java46 - Please enter a first name
+20210212 05:22:41 INFO  [main] controller.CustomerController CustomerController.java48 - Please enter a surname
+20210212 05:22:41 INFO  [main] controller.CustomerController CustomerController.java51 - Customer created
+20210212 05:22:41 INFO  [main] controller.CustomerController CustomerController.java78 - Please enter the id of the customer you would like to delete
+20210212 05:22:41 INFO  [main] controller.CustomerController CustomerController.java60 - Please enter the id of the customer you would like to update
+20210212 05:22:41 INFO  [main] controller.CustomerController CustomerController.java62 - Please enter a first name
+20210212 05:22:41 INFO  [main] controller.CustomerController CustomerController.java64 - Please enter a surname
+20210212 05:22:41 INFO  [main] controller.CustomerController CustomerController.java67 - Customer Updated
+20210212 05:22:42 DEBUG [main] dao.ItemDAO ItemDAO.java119 - java.lang.NullPointerException: Cannot invoke "com.qa.ims.persistence.domain.Item.getItemName()" because "item" is null
+20210212 05:22:42 ERROR [main] dao.ItemDAO ItemDAO.java120 - Cannot invoke "com.qa.ims.persistence.domain.Item.getItemName()" because "item" is null
+20210212 05:22:43 DEBUG [main] dao.ItemDAO ItemDAO.java95 - java.sql.SQLException: Illegal operation on empty result set.
+20210212 05:22:43 ERROR [main] dao.ItemDAO ItemDAO.java96 - Illegal operation on empty result set.
+20210212 05:22:44 DEBUG [main] dao.ItemDAO ItemDAO.java79 - java.lang.NullPointerException: Cannot invoke "com.qa.ims.persistence.domain.Item.getItemName()" because "item" is null
+20210212 05:22:44 ERROR [main] dao.ItemDAO ItemDAO.java80 - Cannot invoke "com.qa.ims.persistence.domain.Item.getItemName()" because "item" is null

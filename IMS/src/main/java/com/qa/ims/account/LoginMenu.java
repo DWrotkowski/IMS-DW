@@ -1,20 +1,20 @@
-package com.qa.ims.persistence.domain;
+package com.qa.ims.account;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import com.qa.ims.utils.Utils;
 
-public enum Domain {
+public enum LoginMenu {
 
-	CUSTOMER("Information about customers"), ITEM("Individual Items"), ORDER("Purchases of items"),
-	LOGOUT("To loggout from this account");
+	LOGIN("Enter user detalis to access aplication"), CREATE("Create new account"), 
+	EXIT("To exit application");
 
 	public static final Logger LOGGER = LogManager.getLogger();
 
 	private String description;
 
-	private Domain(String description) {
+	private LoginMenu(String description) {
 		this.description = description;
 	}
 
@@ -22,17 +22,17 @@ public enum Domain {
 		return this.name() + ": " + this.description;
 	}
 
-	public static void printDomains() {
-		for (Domain domain : Domain.values()) {
+	public static void printOptions() {
+		for (LoginMenu domain : LoginMenu.values()) {
 			LOGGER.info(domain.getDescription());
 		}
 	}
 
-	public static Domain getDomain(Utils utils) {
-		Domain domain;
+	public static LoginMenu getOption(Utils utils) {
+		LoginMenu domain;
 		while (true) {
 			try {
-				domain = Domain.valueOf(utils.getString().toUpperCase());
+				domain = LoginMenu.valueOf(utils.getString().toUpperCase());
 				break;
 			} catch (IllegalArgumentException e) {
 				LOGGER.error("Invalid selection please try again");
