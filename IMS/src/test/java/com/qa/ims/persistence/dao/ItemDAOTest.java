@@ -57,27 +57,6 @@ public class ItemDAOTest {
 		assertEquals(1, DAO.delete(1));
 	}
 	
-	@Test
-	  public void readError() {
-		 Long foo = 100l;
-		 
-		 DAO.read(foo);
 
-	  }
-	 
-	 @Test
-	  public void updateEerror() {
-		 Item foo = null;
-		 
-		 DAO.update(foo);
-
-	  }
-	 @Test
-	  public void createRerror() {
-		 Item foo = null;
-		 
-		 DAO.create(foo);
-
-	  }
 
 }

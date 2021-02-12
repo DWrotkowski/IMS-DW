@@ -2,6 +2,8 @@ package com.qa.ims.controllers;
 
 import static org.junit.Assert.assertEquals;
 
+import java.util.ArrayList;
+import java.util.List;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -13,6 +15,7 @@ import org.mockito.junit.MockitoJUnitRunner;
 import com.qa.ims.account.Account;
 import com.qa.ims.account.User;
 import com.qa.ims.account.UserDev;
+
 import com.qa.ims.utils.Utils;
 
 @RunWith(MockitoJUnitRunner.class)
@@ -29,7 +32,7 @@ public class AccountTest {
 
 	@Test
 	public void testCreate() {
-		final String username = "Bem";
+		final String username = "dan";
 		final String password = "321";
 		final User created = new User(username, password);
 
@@ -44,15 +47,23 @@ public class AccountTest {
 
 	@Test
 	public void testLogin() {
-		final String username = "danWro";
-		final String password = "123567";
+		List<User> expected = new ArrayList<>();
+		expected.add(new User( "dan", "123"));
+		
+		Mockito.when(dev.readAll()).thenReturn(expected);
+
+		final String username = "dan";
+		final String password = "123";
 
 		Mockito.when(utils.getString()).thenReturn(username, password);
 		
 
 		assertEquals(null, this.account.login());
 
-		Mockito.verify(utils, Mockito.times(6)).getString();
+		Mockito.verify(utils, Mockito.times(2)).getString();
+		
+		
+		
 		
 	}
 

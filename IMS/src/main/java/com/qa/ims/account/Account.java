@@ -93,7 +93,7 @@ public class Account {
 
 	}
 	
-	private   String checkUserCreate(String username) {
+	public   String checkUserCreate(String username) {
 		String u = username;
 		
 		List<User> users = userDev.readAll();
