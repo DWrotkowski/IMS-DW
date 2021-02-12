@@ -1,0 +1,68 @@
+20210202 12:19:43 INFO  [main] ims.IMS IMS.java36 - Welcome to the Inventory Management System!
+20210202 12:19:43 INFO  [main] ims.IMS IMS.java41 - Which entity would you like to use?
+20210202 12:19:43 INFO  [main] domain.Domain Domain.java27 - CUSTOMER: Information about customers
+20210202 12:19:43 INFO  [main] domain.Domain Domain.java27 - ITEM: Individual Items
+20210202 12:19:43 INFO  [main] domain.Domain Domain.java27 - ORDER: Purchases of items
+20210202 12:19:43 INFO  [main] domain.Domain Domain.java27 - STOP: To close the application
+20210202 12:19:56 INFO  [main] ims.IMS IMS.java71 - What would you like to do with item:
+20210202 12:19:56 INFO  [main] controller.Action Action.java38 - CREATE: To save a new entity into the database
+20210202 12:19:57 INFO  [main] controller.Action Action.java38 - READ: To read an entity from the database
+20210202 12:19:57 INFO  [main] controller.Action Action.java38 - UPDATE: To change an entity already in the database
+20210202 12:19:57 INFO  [main] controller.Action Action.java38 - DELETE: To remove an entity from the database
+20210202 12:19:57 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
+20210202 12:20:05 INFO  [main] controller.ItemController ItemController.java36 - Iten id:1 item name:jojo value:5
+20210202 12:20:05 INFO  [main] ims.IMS IMS.java71 - What would you like to do with item:
+20210202 12:20:05 INFO  [main] controller.Action Action.java38 - CREATE: To save a new entity into the database
+20210202 12:20:05 INFO  [main] controller.Action Action.java38 - READ: To read an entity from the database
+20210202 12:20:05 INFO  [main] controller.Action Action.java38 - UPDATE: To change an entity already in the database
+20210202 12:20:05 INFO  [main] controller.Action Action.java38 - DELETE: To remove an entity from the database
+20210202 12:20:05 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
+20210202 12:20:28 INFO  [main] controller.ItemController ItemController.java46 - Please enter a item name
+20210202 12:20:32 INFO  [main] controller.ItemController ItemController.java48 - Please enter a value
+20210202 12:20:34 INFO  [main] controller.ItemController ItemController.java51 - Item created
+20210202 12:20:34 INFO  [main] ims.IMS IMS.java71 - What would you like to do with item:
+20210202 12:20:34 INFO  [main] controller.Action Action.java38 - CREATE: To save a new entity into the database
+20210202 12:20:34 INFO  [main] controller.Action Action.java38 - READ: To read an entity from the database
+20210202 12:20:34 INFO  [main] controller.Action Action.java38 - UPDATE: To change an entity already in the database
+20210202 12:20:34 INFO  [main] controller.Action Action.java38 - DELETE: To remove an entity from the database
+20210202 12:20:34 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
+20210202 12:20:41 INFO  [main] controller.ItemController ItemController.java36 - Iten id:1 item name:jojo value:5
+20210202 12:20:41 INFO  [main] controller.ItemController ItemController.java36 - Iten id:2 item name:box value:10
+20210202 12:20:41 INFO  [main] ims.IMS IMS.java71 - What would you like to do with item:
+20210202 12:20:41 INFO  [main] controller.Action Action.java38 - CREATE: To save a new entity into the database
+20210202 12:20:41 INFO  [main] controller.Action Action.java38 - READ: To read an entity from the database
+20210202 12:20:41 INFO  [main] controller.Action Action.java38 - UPDATE: To change an entity already in the database
+20210202 12:20:41 INFO  [main] controller.Action Action.java38 - DELETE: To remove an entity from the database
+20210202 12:20:41 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
+20210202 12:21:00 INFO  [main] controller.ItemController ItemController.java60 - Please enter the id of the item you would like to update
+20210202 12:21:05 INFO  [main] controller.ItemController ItemController.java62 - Please enter a item name
+20210202 12:21:17 INFO  [main] controller.ItemController ItemController.java64 - Please enter a value
+20210202 12:21:21 INFO  [main] controller.ItemController ItemController.java67 - Item Updated
+20210202 12:21:21 INFO  [main] ims.IMS IMS.java71 - What would you like to do with item:
+20210202 12:21:21 INFO  [main] controller.Action Action.java38 - CREATE: To save a new entity into the database
+20210202 12:21:21 INFO  [main] controller.Action Action.java38 - READ: To read an entity from the database
+20210202 12:21:21 INFO  [main] controller.Action Action.java38 - UPDATE: To change an entity already in the database
+20210202 12:21:21 INFO  [main] controller.Action Action.java38 - DELETE: To remove an entity from the database
+20210202 12:21:21 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
+20210202 12:21:28 INFO  [main] controller.ItemController ItemController.java36 - Iten id:1 item name:jojo value:5
+20210202 12:21:28 INFO  [main] controller.ItemController ItemController.java36 - Iten id:2 item name:juice box value:12
+20210202 12:21:28 INFO  [main] ims.IMS IMS.java71 - What would you like to do with item:
+20210202 12:21:28 INFO  [main] controller.Action Action.java38 - CREATE: To save a new entity into the database
+20210202 12:21:28 INFO  [main] controller.Action Action.java38 - READ: To read an entity from the database
+20210202 12:21:28 INFO  [main] controller.Action Action.java38 - UPDATE: To change an entity already in the database
+20210202 12:21:28 INFO  [main] controller.Action Action.java38 - DELETE: To remove an entity from the database
+20210202 12:21:28 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
+20210202 12:21:55 INFO  [main] controller.ItemController ItemController.java78 - Please enter the id of the item you would like to delete
+20210202 12:22:03 INFO  [main] ims.IMS IMS.java71 - What would you like to do with item:
+20210202 12:22:03 INFO  [main] controller.Action Action.java38 - CREATE: To save a new entity into the database
+20210202 12:22:03 INFO  [main] controller.Action Action.java38 - READ: To read an entity from the database
+20210202 12:22:03 INFO  [main] controller.Action Action.java38 - UPDATE: To change an entity already in the database
+20210202 12:22:03 INFO  [main] controller.Action Action.java38 - DELETE: To remove an entity from the database
+20210202 12:22:03 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
+20210202 12:22:09 INFO  [main] controller.ItemController ItemController.java36 - Iten id:1 item name:jojo value:5
+20210202 12:22:09 INFO  [main] ims.IMS IMS.java71 - What would you like to do with item:
+20210202 12:22:09 INFO  [main] controller.Action Action.java38 - CREATE: To save a new entity into the database
+20210202 12:22:09 INFO  [main] controller.Action Action.java38 - READ: To read an entity from the database
+20210202 12:22:09 INFO  [main] controller.Action Action.java38 - UPDATE: To change an entity already in the database
+20210202 12:22:09 INFO  [main] controller.Action Action.java38 - DELETE: To remove an entity from the database
+20210202 12:22:09 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
