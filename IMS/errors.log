@@ -1,0 +1,188 @@
+20210212 14:16:33 INFO  [main] controller.OrderController OrderController.java105 - Please enter the id of the order from  you would like remove item
+20210212 14:16:33 INFO  [main] controller.OrderController OrderController.java107 - Please enter the id of the item you would like to delete
+20210212 14:16:33 INFO  [main] controller.OrderController OrderController.java94 - Please enter the id of the order you would like to add item
+20210212 14:16:33 INFO  [main] controller.OrderController OrderController.java96 - Please enter a item
+20210212 14:16:33 INFO  [main] controller.OrderController OrderController.java99 - Item added to order
+20210212 14:16:33 INFO  [main] controller.OrderController OrderController.java39 - ALL orders : 
+
+20210212 14:16:33 INFO  [main] controller.OrderController OrderController.java45 - Orders with Items : 
+
+20210212 14:16:33 INFO  [main] controller.OrderController OrderController.java48 - order_id= 1, customers_ id : 1, items= 1
+
+20210212 14:16:33 INFO  [main] controller.OrderController OrderController.java59 - Please enter a order's customer's id
+20210212 14:16:33 INFO  [main] controller.OrderController OrderController.java62 - Order created, now you need add some items
+20210212 14:16:33 INFO  [main] controller.OrderController OrderController.java87 - Please enter the id of the order you would like to delete
+20210212 14:16:33 INFO  [main] controller.OrderController OrderController.java71 - Please enter the id of the order you would like to update
+20210212 14:16:33 INFO  [main] controller.OrderController OrderController.java73 - Please enter a customer
+20210212 14:16:33 INFO  [main] controller.OrderController OrderController.java76 - Order Updated
+20210212 14:16:33 INFO  [main] controller.OrderController OrderController.java114 - Please enter the id of the order's value you would like calculate 
+20210212 14:16:33 ERROR [main] utils.DBUtils DBUtils.java31 - java.lang.NullPointerException: inStream parameter is null
+20210212 14:16:33 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:33 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:33 DEBUG [main] dao.CustomerDAO CustomerDAO.java58 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:33 ERROR [main] dao.CustomerDAO CustomerDAO.java59 - No suitable driver found for 
+20210212 14:16:33 ERROR [main] utils.DBUtils DBUtils.java31 - java.lang.NullPointerException: inStream parameter is null
+20210212 14:16:33 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:33 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:33 DEBUG [main] dao.CustomerDAO CustomerDAO.java95 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:33 ERROR [main] dao.CustomerDAO CustomerDAO.java96 - No suitable driver found for 
+20210212 14:16:33 ERROR [main] utils.DBUtils DBUtils.java31 - java.lang.NullPointerException: inStream parameter is null
+20210212 14:16:33 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:33 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:33 DEBUG [main] dao.CustomerDAO CustomerDAO.java45 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:33 ERROR [main] dao.CustomerDAO CustomerDAO.java46 - No suitable driver found for 
+20210212 14:16:33 ERROR [main] utils.DBUtils DBUtils.java31 - java.lang.NullPointerException: inStream parameter is null
+20210212 14:16:33 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:33 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:33 DEBUG [main] dao.CustomerDAO CustomerDAO.java79 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:33 ERROR [main] dao.CustomerDAO CustomerDAO.java80 - No suitable driver found for 
+20210212 14:16:33 ERROR [main] utils.DBUtils DBUtils.java31 - java.lang.NullPointerException: inStream parameter is null
+20210212 14:16:33 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:33 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:33 DEBUG [main] dao.CustomerDAO CustomerDAO.java137 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:33 ERROR [main] dao.CustomerDAO CustomerDAO.java138 - No suitable driver found for 
+20210212 14:16:33 ERROR [main] utils.DBUtils DBUtils.java31 - java.lang.NullPointerException: inStream parameter is null
+20210212 14:16:33 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:33 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:33 DEBUG [main] dao.CustomerDAO CustomerDAO.java119 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:33 ERROR [main] dao.CustomerDAO CustomerDAO.java120 - No suitable driver found for 
+20210212 14:16:34 DEBUG [main] dao.OrderDAO OrderDAO.java174 - java.lang.NullPointerException: Cannot invoke "com.qa.ims.persistence.domain.Order.getCustomers()" because "order" is null
+20210212 14:16:34 ERROR [main] dao.OrderDAO OrderDAO.java175 - Cannot invoke "com.qa.ims.persistence.domain.Order.getCustomers()" because "order" is null
+20210212 14:16:35 DEBUG [main] dao.OrderDAO OrderDAO.java214 - java.lang.NullPointerException: Cannot invoke "com.qa.ims.persistence.domain.Orders_items.getOrder_id()" because "order" is null
+20210212 14:16:35 ERROR [main] dao.OrderDAO OrderDAO.java215 - Cannot invoke "com.qa.ims.persistence.domain.Orders_items.getOrder_id()" because "order" is null
+20210212 14:16:37 DEBUG [main] dao.OrderDAO OrderDAO.java121 - java.lang.NullPointerException: Cannot invoke "com.qa.ims.persistence.domain.Order.getCustomers()" because "order" is null
+20210212 14:16:37 ERROR [main] dao.OrderDAO OrderDAO.java122 - Cannot invoke "com.qa.ims.persistence.domain.Order.getCustomers()" because "order" is null
+20210212 14:16:38 INFO  [main] dao.OrderDAO OrderDAO.java33 - total value of this order is : 5
+20210212 14:16:38 INFO  [main] account.Account Account.java46 - Hello dan
+20210212 14:16:38 INFO  [main] account.Account Account.java79 - Please enter a user name
+20210212 14:16:38 INFO  [main] account.Account Account.java85 - Please enter a password
+20210212 14:16:38 INFO  [main] account.Account Account.java90 - Account created
+20210212 14:16:38 INFO  [main] account.Account Account.java51 - Incorrect password, please try again
+20210212 14:16:38 INFO  [main] account.Account Account.java53 - Incorrect username, please try again
+20210212 14:16:38 INFO  [main] account.Account Account.java51 - Incorrect password, please try again
+20210212 14:16:38 INFO  [main] account.Account Account.java53 - Incorrect username, please try again
+20210212 14:16:38 INFO  [main] account.Account Account.java51 - Incorrect password, please try again
+20210212 14:16:38 INFO  [main] account.Account Account.java53 - Incorrect username, please try again
+20210212 14:16:38 INFO  [main] account.Account Account.java56 - Attempts exceeded, returning to main menu.
+20210212 14:16:38 INFO  [main] account.Account Account.java79 - Please enter a user name
+20210212 14:16:38 INFO  [main] account.Account Account.java102 - User name already exist
+20210212 14:16:38 INFO  [main] account.Account Account.java79 - Please enter a user name
+20210212 14:16:38 INFO  [main] account.Account Account.java85 - Please enter a password
+20210212 14:16:38 INFO  [main] account.Account Account.java90 - Account created
+20210212 14:16:38 INFO  [main] account.Account Account.java85 - Please enter a password
+20210212 14:16:38 INFO  [main] account.Account Account.java90 - Account created
+20210212 14:16:40 DEBUG [main] account.UserDev UserDev.java57 - java.lang.NullPointerException: Cannot invoke "com.qa.ims.account.User.getUsername()" because "account" is null
+20210212 14:16:40 ERROR [main] account.UserDev UserDev.java58 - Cannot invoke "com.qa.ims.account.User.getUsername()" because "account" is null
+20210212 14:16:40 ERROR [main] utils.DBUtils DBUtils.java31 - java.lang.NullPointerException: inStream parameter is null
+20210212 14:16:40 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:40 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:40 DEBUG [main] dao.OrderDAO OrderDAO.java86 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:40 ERROR [main] dao.OrderDAO OrderDAO.java87 - No suitable driver found for 
+20210212 14:16:40 ERROR [main] utils.DBUtils DBUtils.java31 - java.lang.NullPointerException: inStream parameter is null
+20210212 14:16:40 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:40 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:40 DEBUG [main] dao.OrderDAO OrderDAO.java100 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:40 ERROR [main] dao.OrderDAO OrderDAO.java101 - No suitable driver found for 
+20210212 14:16:40 ERROR [main] utils.DBUtils DBUtils.java31 - java.lang.NullPointerException: inStream parameter is null
+20210212 14:16:40 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:40 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:40 DEBUG [main] dao.OrderDAO OrderDAO.java135 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:40 ERROR [main] dao.OrderDAO OrderDAO.java136 - No suitable driver found for 
+20210212 14:16:40 ERROR [main] utils.DBUtils DBUtils.java31 - java.lang.NullPointerException: inStream parameter is null
+20210212 14:16:40 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:40 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:40 DEBUG [main] dao.OrderDAO OrderDAO.java241 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:40 ERROR [main] dao.OrderDAO OrderDAO.java242 - No suitable driver found for 
+20210212 14:16:40 ERROR [main] utils.DBUtils DBUtils.java31 - java.lang.NullPointerException: inStream parameter is null
+20210212 14:16:40 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:40 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:40 DEBUG [main] dao.OrderDAO OrderDAO.java214 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:40 ERROR [main] dao.OrderDAO OrderDAO.java215 - No suitable driver found for 
+20210212 14:16:40 ERROR [main] utils.DBUtils DBUtils.java31 - java.lang.NullPointerException: inStream parameter is null
+20210212 14:16:40 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:40 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:40 DEBUG [main] dao.OrderDAO OrderDAO.java68 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:40 ERROR [main] dao.OrderDAO OrderDAO.java69 - No suitable driver found for 
+20210212 14:16:40 ERROR [main] utils.DBUtils DBUtils.java31 - java.lang.NullPointerException: inStream parameter is null
+20210212 14:16:40 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:40 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:40 DEBUG [main] dao.OrderDAO OrderDAO.java121 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:40 ERROR [main] dao.OrderDAO OrderDAO.java122 - No suitable driver found for 
+20210212 14:16:40 ERROR [main] utils.DBUtils DBUtils.java31 - java.lang.NullPointerException: inStream parameter is null
+20210212 14:16:40 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:40 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:40 DEBUG [main] dao.OrderDAO OrderDAO.java192 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:40 ERROR [main] dao.OrderDAO OrderDAO.java193 - No suitable driver found for 
+20210212 14:16:40 ERROR [main] utils.DBUtils DBUtils.java31 - java.lang.NullPointerException: inStream parameter is null
+20210212 14:16:40 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:40 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:40 DEBUG [main] dao.OrderDAO OrderDAO.java174 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:40 ERROR [main] dao.OrderDAO OrderDAO.java175 - No suitable driver found for 
+20210212 14:16:40 ERROR [main] utils.DBUtils DBUtils.java31 - java.lang.NullPointerException: inStream parameter is null
+20210212 14:16:40 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:40 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:40 DEBUG [main] dao.OrderDAO OrderDAO.java260 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:40 ERROR [main] dao.OrderDAO OrderDAO.java261 - No suitable driver found for 
+20210212 14:16:40 ERROR [main] utils.DBUtils DBUtils.java31 - java.lang.NullPointerException: inStream parameter is null
+20210212 14:16:40 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:40 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:40 DEBUG [main] dao.ItemDAO ItemDAO.java58 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:40 ERROR [main] dao.ItemDAO ItemDAO.java59 - No suitable driver found for 
+20210212 14:16:40 ERROR [main] utils.DBUtils DBUtils.java31 - java.lang.NullPointerException: inStream parameter is null
+20210212 14:16:40 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:40 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:40 DEBUG [main] dao.ItemDAO ItemDAO.java95 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:40 ERROR [main] dao.ItemDAO ItemDAO.java96 - No suitable driver found for 
+20210212 14:16:40 ERROR [main] utils.DBUtils DBUtils.java31 - java.lang.NullPointerException: inStream parameter is null
+20210212 14:16:40 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:40 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:40 DEBUG [main] dao.ItemDAO ItemDAO.java45 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:40 ERROR [main] dao.ItemDAO ItemDAO.java46 - No suitable driver found for 
+20210212 14:16:40 ERROR [main] utils.DBUtils DBUtils.java31 - java.lang.NullPointerException: inStream parameter is null
+20210212 14:16:40 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:40 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:40 DEBUG [main] dao.ItemDAO ItemDAO.java79 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:40 ERROR [main] dao.ItemDAO ItemDAO.java80 - No suitable driver found for 
+20210212 14:16:40 ERROR [main] utils.DBUtils DBUtils.java31 - java.lang.NullPointerException: inStream parameter is null
+20210212 14:16:40 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:40 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:40 DEBUG [main] dao.ItemDAO ItemDAO.java137 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:40 ERROR [main] dao.ItemDAO ItemDAO.java138 - No suitable driver found for 
+20210212 14:16:40 ERROR [main] utils.DBUtils DBUtils.java31 - java.lang.NullPointerException: inStream parameter is null
+20210212 14:16:40 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:40 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:40 DEBUG [main] dao.ItemDAO ItemDAO.java119 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:40 ERROR [main] dao.ItemDAO ItemDAO.java120 - No suitable driver found for 
+20210212 14:16:40 INFO  [main] controller.ItemController ItemController.java36 - Item id:1 item name:jojo value:5
+20210212 14:16:40 INFO  [main] controller.ItemController ItemController.java46 - Please enter a item name
+20210212 14:16:40 INFO  [main] controller.ItemController ItemController.java48 - Please enter a value
+20210212 14:16:40 INFO  [main] controller.ItemController ItemController.java51 - Item created
+20210212 14:16:40 INFO  [main] controller.ItemController ItemController.java78 - Please enter the id of the item you would like to delete
+20210212 14:16:40 INFO  [main] controller.ItemController ItemController.java60 - Please enter the id of the item you would like to update
+20210212 14:16:40 INFO  [main] controller.ItemController ItemController.java62 - Please enter a item name
+20210212 14:16:40 INFO  [main] controller.ItemController ItemController.java64 - Please enter a value
+20210212 14:16:40 INFO  [main] controller.ItemController ItemController.java67 - Item Updated
+20210212 14:16:42 ERROR [main] utils.DBUtils DBUtils.java31 - java.lang.NullPointerException: inStream parameter is null
+20210212 14:16:42 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:42 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:42 DEBUG [main] account.UserDev UserDev.java39 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:42 ERROR [main] account.UserDev UserDev.java40 - No suitable driver found for 
+20210212 14:16:42 ERROR [main] utils.DBUtils DBUtils.java31 - java.lang.NullPointerException: inStream parameter is null
+20210212 14:16:42 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:42 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:42 DEBUG [main] account.UserDev UserDev.java73 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:42 ERROR [main] account.UserDev UserDev.java74 - No suitable driver found for 
+20210212 14:16:42 ERROR [main] utils.DBUtils DBUtils.java31 - java.lang.NullPointerException: inStream parameter is null
+20210212 14:16:42 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:42 DEBUG [main] utils.DBUtils DBUtils.java67 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:42 DEBUG [main] account.UserDev UserDev.java57 - java.sql.SQLException: No suitable driver found for 
+20210212 14:16:42 ERROR [main] account.UserDev UserDev.java58 - No suitable driver found for 
+20210212 14:16:42 INFO  [main] controller.CustomerController CustomerController.java36 - id:1 first name:jordan surname:harrison
+20210212 14:16:42 INFO  [main] controller.CustomerController CustomerController.java46 - Please enter a first name
+20210212 14:16:42 INFO  [main] controller.CustomerController CustomerController.java48 - Please enter a surname
+20210212 14:16:42 INFO  [main] controller.CustomerController CustomerController.java51 - Customer created
+20210212 14:16:42 INFO  [main] controller.CustomerController CustomerController.java78 - Please enter the id of the customer you would like to delete
+20210212 14:16:42 INFO  [main] controller.CustomerController CustomerController.java60 - Please enter the id of the customer you would like to update
+20210212 14:16:42 INFO  [main] controller.CustomerController CustomerController.java62 - Please enter a first name
+20210212 14:16:42 INFO  [main] controller.CustomerController CustomerController.java64 - Please enter a surname
+20210212 14:16:42 INFO  [main] controller.CustomerController CustomerController.java67 - Customer Updated
