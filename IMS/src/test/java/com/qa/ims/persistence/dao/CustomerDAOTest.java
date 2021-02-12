@@ -32,6 +32,8 @@ public class CustomerDAOTest {
 	public void testReadAll() {
 		List<Customer> expected = new ArrayList<>();
 		expected.add(new Customer(1L, "jordan", "harrison"));
+		
+		
 		assertEquals(expected, DAO.readAll());
 	}
 
@@ -58,31 +60,5 @@ public class CustomerDAOTest {
 		assertEquals(1, DAO.delete(1));
 	}
 	
-	 @Test
-	  public void readError() {
-		 Long foo = 100l;
-		 
-		 DAO.read(foo);
 
-	  }
-	 
-	 @Test
-	  public void updateEerror() {
-		 Customer foo = null;
-		 
-		 DAO.update(foo);
-
-	  }
-	 @Test
-	  public void createRerror() {
-		 Customer foo = null;
-		 
-		 DAO.create(foo);
-
-	  }
-
-
-	 
-	
-	
 }
